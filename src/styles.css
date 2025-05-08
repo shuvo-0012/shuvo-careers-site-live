@@ -1,0 +1,145 @@
+html{
+    font-size: 16px;
+    color: rgb(242, 4, 4);
+    background-color: #FFF8F0;
+}
+body{
+    margin: 0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+a{
+   text-decoration: none; 
+   color: #c10007 ;
+}
+a:hover{
+    color:#155dfc ;
+}
+#navbar{
+    padding:8px;
+
+}
+#about{
+    display: flex;
+max-width: 800px;
+margin: 0 auto;
+padding:8px ;
+
+}
+ h1, h2, h3, h4,h5,h6{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    color: #222222;
+ }
+#description{
+    width: 50%;
+     background-color: blueviolet;
+    padding-right: 8px;
+}
+#team{
+    width: 50%;
+}
+#fucking-image {
+   border-radius: 5px; 
+   width:50%;
+  border-left-width: 5px ;
+  border-right-width: 4px;
+  border-top-width: 3px;
+  border-bottom-width: 2px;
+  border-style: dashed;
+  border-color: rgb(20, 20, 20); 
+}
+#banner{
+    object-fit: cover;
+
+}
+
+#logo{
+    height:50px;
+    margin: 0px;
+}
+/*h1{
+    text-align: center;
+    color: deeppink;
+}*/
+h4{
+    text-align: center;
+}
+#banner{
+    width:100%;
+
+}
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse:collapse ;
+}
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.form-group{
+    margin: 16px 0;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form label{
+    font-weight: 600;
+   
+
+}
+#application-form input, select, textarea{
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid red;
+    
+}
+.form-group textarea{
+    width: 80% ;
+    font-family: 'Roboto' sans-serif;
+}
+
+.form-group input [type="checkbox"]{
+  width: 50px;
+  height: 50px;
+
+}
+.form-group input[type="submit"]{
+    background-color:#1447e6;
+    color: #000000;
+    font-weight: 500;
+    padding: 16px;
+    cursor: pointer;
+
+}
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px ;
+    background-color:darkmagenta ;
+    text-align: left;
+    text-align: center;
+    color: #000000;
+     
+}
+.jobs-data-row td{
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd) {
+    background-color: lightpink;   
+}
+#jobs-table tr:nth-child(even) {
+    background-color: lightseagreen;   
+}
+
+.link{
+    float: right;
+}
