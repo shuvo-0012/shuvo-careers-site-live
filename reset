@@ -1,0 +1,23 @@
+[33mcommit a827f7b21b8a680103df27aeb855d67b4249e403[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: shuvo-0012 <147196566+shuvo-0012@users.noreply.github.com>
+Date:   Thu May 8 17:28:23 2025 +0000
+
+    Adding the HTML ans CSS file
+
+ src/3 idiot.jpg  | Bin [31m0[m -> [32m3787485[m bytes
+ src/fucking1.png | Bin [31m0[m -> [32m3914216[m bytes
+ src/index.html   | 203 [32m++++++++++++++++++++++++++++++++++++++++++[m
+ src/style.css    |   4 [32m+[m
+ src/styles.css   | 145 [32m++++++++++++++++++++++++++++++[m
+ 5 files changed, 352 insertions(+)
+
+[33mcommit be4d20593deb20e8b0f5fc1b82e5863eb9ea7f08[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: shuvo-0012 <147196566+shuvo-0012@users.noreply.github.com>
+Date:   Thu May 8 22:41:33 2025 +0600
+
+    Initial commit
+
+ .gitignore | 136 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m
+ LICENSE    |  21 [32m++++++++[m
+ README.md  |   2 [32m+[m
+ 3 files changed, 159 insertions(+)
